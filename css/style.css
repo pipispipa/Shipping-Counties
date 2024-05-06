@@ -1,0 +1,54 @@
+.shipping-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    border: 1px solid #dcdcdc;
+}
+
+.shipping-info img {
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.shipping-info img:hover {
+    transform: scale(1.1);
+}
+
+.shipping-info span {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .shipping-info {
+        font-size: 14px; /* Slightly smaller font size */
+        padding: 8px; /* Reduce padding */
+    }
+
+    .shipping-info img {
+        width: 35px; /* Smaller flags */
+        height: 26px;
+    }
+}
+
+@media (max-width: 480px) {
+    .shipping-info {
+        flex-direction: column; /* Stack flags and text vertically on small screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .shipping-info img {
+        width: 30px; /* Even smaller flags */
+        height: 22px;
+    }
+}
