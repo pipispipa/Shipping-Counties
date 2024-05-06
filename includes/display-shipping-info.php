@@ -1,4 +1,9 @@
 <?php
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
 add_action('woocommerce_single_product_summary', 'ship_from_countries_display_shipping_info', 25);
 function ship_from_countries_display_shipping_info() {
     global $product;

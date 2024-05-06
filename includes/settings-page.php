@@ -1,4 +1,9 @@
 <?php
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
 add_action('admin_menu', 'ship_from_countries_add_admin_menu');
 function ship_from_countries_add_admin_menu() { 
     add_menu_page('Shipping Companies', 'Shipping Companies', 'manage_options', 'ship-from-countries', 'ship_from_countries_settings_page');

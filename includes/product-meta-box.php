@@ -1,4 +1,9 @@
 <?php
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
 add_action('add_meta_boxes', 'ship_from_countries_add_product_meta_box');
 function ship_from_countries_add_product_meta_box() {
     add_meta_box('select-shipping-company', 'Select Shipping Company', 'ship_from_countries_product_meta_box_callback', 'product', 'side', 'default');

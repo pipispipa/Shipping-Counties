@@ -14,10 +14,7 @@ Adds a meta box to specify countries from which the product is shipped and displ
 
 == Description ==
 
-The "Ship From Countries for WooCommerce" plugin enhances your WooCommerce store by allowing you to specify and display the countries from which each product is shipped. 
-It adds a user-friendly meta box in the product edit screen where you can easily specify the shipping countries. 
-These countries are then displayed on the product detail page as flags, providing a clear and visually appealing indication of shipping origins to your customers. 
-This plugin ensures compatibility with WooCommerce's High Performance Order Storage (HPOS) feature, making it a must-have for stores looking to provide detailed shipping information.
+Enhances WooCommerce by allowing you to display shipping countries on product pages as flags.
 
 Key Features:
 - Easy-to-use meta box for specifying shipping countries on the product edit screen.
