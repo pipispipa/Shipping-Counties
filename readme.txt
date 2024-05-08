@@ -2,7 +2,7 @@
 Contributors: PANNIKOLOV
 Tags: woocommerce, shipping, countries, flags, product detail
 Requires at least: 5.0
-Tested up to: 6.50
+Tested up to: 6.5
 Requires PHP: 7.2
 Stable tag: 1.2
 License: GPLv2 or later
@@ -17,7 +17,7 @@ Enhances WooCommerce by allowing you to display shipping countries on product pa
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/ship-from-countries-for-woocommerce` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/Shipping-Counties` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Use the "Shipping Companies" menu in the admin panel to configure the plugin.
 
@@ -37,8 +37,8 @@ Yes, you can specify multiple countries from which a product is shipped. Each co
 This plugin uses the third-party service [Flag CDN](https://flagcdn.com/) to display country flags on the WooCommerce product detail pages. The service retrieves and displays flag images based on the shipping information provided.
 
 **Terms and Privacy**:
-- [Terms of Use](https://flagcdn.com/terms)
-- [Privacy Policy](https://flagcdn.com/privacy)
+- [Terms of Use](https://flagpedia.net/terms)
+- [Privacy Policy](https://flagpedia.net/privacy-policy)
 
 Data sent to the service:
 - Country codes of the shipping countries for displaying corresponding flags.
@@ -81,8 +81,3 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 = 1.0 =
 - Initial release.
-
-== Upgrade Notice ==
-
-= 1.1 =
-Added HPOS compatibility and several improvements. We recommend updating to ensure the best performance and compatibility with the latest WooCommerce features.
