@@ -37,6 +37,21 @@ Yes, you can specify multiple countries from which a product is shipped. Each co
 
 "Ship From Countries for WooCommerce" is designed to work with most themes that follow WooCommerce's coding practices and standards. If you encounter any issues, please reach out to our support.
 
+
+== External Service Usage ==
+
+This plugin uses the third-party service [Flag CDN](https://flagcdn.com/) to display country flags on the WooCommerce product detail pages. The service retrieves and displays flag images based on the shipping information provided.
+
+**Terms and Privacy**:
+- [Terms of Use](https://flagcdn.com/terms)
+- [Privacy Policy](https://flagcdn.com/privacy)
+
+Data sent to the service:
+- Country codes of the shipping countries for displaying corresponding flags.
+
+No personal user data is shared with the external service, as only country codes are sent. By using this plugin, you agree to the external service's terms of use and privacy policies.
+
+
 == Screenshots ==
 
 1. The meta box added to the product edit screen for specifying shipping countries.
