@@ -8,7 +8,6 @@ Stable tag: 1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 WC requires at least: 3.0.0
-WC tested up to: 6.5.0
 
 Adds a meta box to specify countries from which the product is shipped and displays these countries as flags on the product detail page with a modern design.
 
