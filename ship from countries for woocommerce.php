@@ -1,15 +1,15 @@
 <?php
 /**
  * Plugin Name: Ship From Countries for WooCommerce
- * Plugin URI: [Your Plugin's Home Page or WordPress Plugin Page URL]
+ * Plugin URI: [https://github.com/pipispipa/Woo-Sipping]
  * Description: Adds a meta box to specify countries from which the product is shipped and displays these countries as flags on the product detail page with a modern design. Ensures compatibility with WooCommerce's HPOS feature.
- * Version: 1.1
+ * Version: 1.2
  * Author: PANNIKOLOV
  * Author URI: [https://profiles.wordpress.org/pannikolov/]
  * License: GPL2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * WC requires at least: 3.0.0
- * WC tested up to: 5.9.0
+ * WC tested up to: 6.5.0
  */
 
 

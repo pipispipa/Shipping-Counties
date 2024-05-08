@@ -2,13 +2,13 @@
 Contributors: PANNIKOLOV
 Tags: woocommerce, shipping, countries, flags, product detail
 Requires at least: 5.0
-Tested up to: 5.9.0
+Tested up to: 6.50
 Requires PHP: 7.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 WC requires at least: 3.0.0
-WC tested up to: 5.9.0
+WC tested up to: 6.5.0
 
 Adds a meta box to specify countries from which the product is shipped and displays these countries as flags on the product detail page with a modern design.
 
